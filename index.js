@@ -17,7 +17,6 @@ mongoose.connect(URI, { useNewUrlParser: true, useUnifiedTopology: true }, (err,
     } else {
         console.log('La base de datos funciona!');
         app.listen(PORT || port, () => {
-            console.log(`El demonio está vigilando en el puerto ${port}`)
             console.log(`El demonio está vigilando en el puerto ${PORT}`)
 
         })
